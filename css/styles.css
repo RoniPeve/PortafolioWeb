@@ -50,6 +50,11 @@ html{
     padding: 15px 30px;
 
 }
+.btn-trabajo a:hover{
+
+    background: #2e2b2b;
+
+}
 nav{
     z-index: 5;
     width: 100%;
@@ -295,7 +300,10 @@ SOBRE MI
 }
 
 /**POPUP */
-
+.preview p{
+    padding: 0px 8px;
+    margin-top: 0;
+}
 .products-preview{
     z-index: 3;
     position: fixed;
@@ -720,7 +728,7 @@ textarea:focus {
         margin-bottom: 20px;
         box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
         text-align: center;
-       margin: 10px auto;
+        margin: 10px auto;
     }
     .proyectos_lista .imagen_proyecto{
         width: 50%;
@@ -730,9 +738,29 @@ textarea:focus {
     .contenido p{
         display: none;
     }
+    .proyectos_lista{
+        justify-content: center;
+    }
+    .proyectos_lista .imagen_proyecto{
+        width: 80%;
+    }
+    .productos .product-item {
+        width: 80%;
+    }
+    .filtros_proyectos{
+        flex-wrap: wrap;
+    }
 }
 @media (max-width: 500px) {
     .productos .product-item {
         width: 90%;
     }
+    .proyectos_lista{
+        justify-content: center;
+    }
+    .proyectos_lista .imagen_proyecto{
+        width: 90%;
+    }
+
+    
 }
