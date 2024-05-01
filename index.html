@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio | Peve Carhuayo</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/juegos.js"></script>
+    <script src="js/proyectos.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/slider.js"></script>
+    <script defer src="js/menu.js"></script>
+</head>
+<body>
+    
+    <nav id="nav" >
+        <input type ="checkbox" id="menu" >
+        <label for="menu">
+            <img src="img/menu.png" class="menu-icono" alt="">
+        </label>
+        <ul class="menu">
+            <li class="item"><a href="#inicio" class="selected">Inicio</a></li>
+            <li class="item"> <a href="#about">Sobre Mi</a></li>
+            <li class="item"> <a href="#portafolio">Portafolio</a></li>
+            <li class="item"> <a href="#Videojuegos">Videojuegos</a></li>
+            <!--<li class="item"> <a href="#contacto">Contacto</a></li>-->
+        </ul>
+    </nav>
+    <div class="banner" id="inicio">
+        <div class="contenido_titulo">
+            <h1>Roni Adrian Peve Carhuayo</h1>
+            <h3>Developer full Stack | developer indie game | developer web</h3>
+            <div class="btn-trabajo">
+                <a href="#about">Ver mi trabajo</a>
+            </div>
+        </div>
+    </div>
+    <section class="about" id="about"> 
+        <h2>Sobre Mi</h2>
+        <div class="row">
+            <div class="sobre_mi">
+                <div class="hexagono">
+                    <div class="shape">
+                        <img src="img/perfil.jpg" alt="">
+                    </div>
+                </div>
+                <div class="descripcion">
+                    <h4>¿Quien Soy?</h4>
+                    <p>Bachiller en Ingeniería de Sistemas con experiencia en PHP y sólidos conocimientos en desarrollo web (HTML, CSS, Bootstrap). Apasionado por la tecnología y los videojuegos, además de ser desarrollador de videojuegos independiente.</p>
+                </div>
+            </div>
+            <div class="habilidades">
+                <div class="skill">
+                    <p><span>HTML</span></p>
+                    <div class="progress" style="--tamano_skill:90%"></div>
+                </div>
+                <div class="skill">
+                    <p><span>CSS</span></p>
+                    <div class="progress" style="--tamano_skill:85%">
+                        
+                    </div>
+                </div>
+                <div class="skill">
+                    <p><span>C#</span></p>
+                    <div class="progress" style="--tamano_skill:85%">
+                        
+                    </div>
+                </div>
+                
+                <div class="skill">
+                    <p><span>Unity</span></p>
+                    <div class="progress" style="--tamano_skill:80%">
+                        
+                    </div>
+                </div>
+                <div class="skill">
+                    <p><span>Moodle</span></p>
+                    <div class="progress" style="--tamano_skill:75%">
+                        
+                    </div>
+                </div>
+                <div class="skill">
+                    <p><span>SQL Server</span></p>
+                    <div class="progress" style="--tamano_skill:75%">
+                        
+                    </div>
+                </div>
+                <div class="skill">
+                    <p><span>MYSQL</span></p>
+                    <div class="progress" style="--tamano_skill:65%">
+                        
+                    </div>
+                </div>
+                <div class="skill">
+                    <p><span>PHP</span></p>
+                    <div class="progress" style="--tamano_skill:65%">
+                        
+                    </div>
+                </div>
+                <div class="skill">
+                    <p><span>Photoshop</span></p>
+                    <div class="progress" style="--tamano_skill:55%">
+                        
+                    </div>
+                </div>
+                <div class="skill">
+                    <p><span>Illustrator</span></p>
+                    <div class="progress" style="--tamano_skill:45%">
+                        
+                    </div>
+                </div>
+                
+                <div class="skill">
+                    <p><span>Java</span></p>
+                    <div class="progress" style="--tamano_skill:45%">
+                        
+                    </div>
+                </div>
+                <div class="skill">
+                    <p><span>Angular</span></p>
+                    <div class="progress" style="--tamano_skill:35%">
+                        
+                    </div>
+                </div>
+                <div class="skill">
+                    <p><span>Javascript</span></p>
+                    <div class="progress" style="--tamano_skill:25%">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="portafolio" id="portafolio">
+        <h2>Proyectos</h2>
+        <div class="cuerpo_proyectos">
+            <div class="filtros_proyectos">
+                <a href="#" class="proyecto_item" cat_proyecto="all_proyectos">Todos</a>
+                <a href="#" class="proyecto_item" cat_proyecto="HTML_CSS">HTML/CSS</a>
+                <a href="#" class="proyecto_item" cat_proyecto="PHP">PHP</a>
+                <a href="#" class="proyecto_item" cat_proyecto="C_sharp">C#</a>
+            </div>
+            <div class="proyectos_lista">
+                <div class="imagen_proyecto" cat_proyecto="HTML_CSS" data-name="p-1">
+                    <img src="img/pagina_fis.png" alt="">
+                    <div class="contenido">
+                        <h4>Facultad de Ingenieria de Sistemas</h4>
+                        <p>Página de ejemplo para la Facultad de Ingenieria de Sistemas</p>
+                        <a href=""class="mostrar-modal">VER MÁS</a>
+                    </div>
+                </div>
+                <div class="imagen_proyecto" cat_proyecto="C_sharp" data-name="p-2">
+                    <img src="img/bibioteca.png" alt="">
+                    <div class="contenido">
+                        <h4>Proyecto biblioteca</h4>
+                        <p>CRUD para el mantenimiento de una biblioteca</p>
+                        <a href="" class="mostrar-modal">VER MÁS</a>
+                    </div>
+                </div>
+                <div class="imagen_proyecto" cat_proyecto="C_sharp" data-name="p-3">
+                    <img src="img/juego_granjero.png" alt="">
+                    <div class="contenido">
+                        <h4>Juego del granjero</h4>
+                        <p>Juego sencillo sobre el dilema del granjero</p>
+                        <a href="" class="mostrar-modal">VER MAS</a>
+                    </div>
+                </div>
+                <div class="imagen_proyecto" cat_proyecto="C_sharp" data-name="p-4">
+                    <img src="img/expert_doctor.png" alt="">
+                    <div class="contenido">
+                        <h4>Expert Doctor</h4>
+                        <p>Software sencillo para la deteccion de una enfermedad.</p>
+                        <a href="" class="mostrar-modal">VER MAS</a>
+                    </div>
+                </div>
+                <div class="imagen_proyecto" cat_proyecto="C_sharp" data-name="p-4">
+                    <img src="img/analizador_lexico.png" alt="">
+                    <div class="contenido">
+                        <h4>Analizador Léxico</h4>
+                        <p>Software sencillo sobre un analizador léxico.</p>
+                        <a href="" class="mostrar-modal">VER MAS</a>
+                    </div>
+                </div>
+                <div class="imagen_proyecto" cat_proyecto="PHP" data-name="p-5">
+                    <img src="img/agenda.png" alt="">
+                    <div class="contenido">
+                        <h4>Agenda Personal</h4>
+                        <p>CRUD sencillo de una agenda personal.</p>
+                        <a href="" class="mostrar-modal">VER MAS</a>
+                    </div>
+                </div>
+                <div class="imagen_proyecto" cat_proyecto="HTML_CSS" data-name="p-4">
+                    <img src="img/portafolio_web.png" alt="">
+                    <div class="contenido">
+                        <h4>Portafolio Web</h4>
+                        <p>Ejemplo de un portafolio web.</p>
+                        <a href="" class="mostrar-modal">VER MAS</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="products-preview">
+
+                <div class="preview" data-target="p-1">
+                <i class="fas fa-times cerrar-modal"></i>
+                <div class="slider">
+                    <img class="slide-1" src="img/pagina_fis.png" alt="">
+                    <img class="slide-2" src="img/pagina_fis02.png" alt="">
+                    <img class="slide-3" src="img/pagina_fis.png" alt="">
+                </div>
+                <div class="slider-nav">
+                    <a href="javascript:void(0)" class="nav-button" data-slide="1"></a>
+                    <a href="javascript:void(0)" class="nav-button" data-slide="2"></a>
+                    <a href="javascript:void(0)" class="nav-button" data-slide="3"></a>
+                </div>
+            
+               <h3>Facultad de Ingenieria de Sistemas</h3>
+               <ul class="tecnologias">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                </ul>
+               <p>Proyecto universitario para la página web de la Facultad de Ingeniería de Sistemas de la Universidad Nacional San Luis Gonzaga. Desarrollada con HTML, CSS y JavaScript, sin utilizar bibliotecas, y completamente adaptable a diferentes dispositivos (responsive).</p>
+               <div class="buttons">
+                  <a href="https://github.com/RoniPeve/FacultadFis" target="_blank" class="buy"><i class="fab fa-github"></i> Codigo Fuente </a>
+               </div>
+            </div>
+            <div class="preview" data-target="p-2">
+                <i class="fas fa-times cerrar-modal"></i>
+                <div class="slider">
+                    <img class="slide-1" src="img/banner.png" alt="">
+                    <img class="slide-2" src="img/bibioteca.png" alt="">
+                    <img class="slide-3" src="img/pagina_fis.png" alt="">
+                </div>
+                <div class="slider-nav">
+                    <a href="javascript:void(0)" class="nav-button" data-slide="1"></a>
+                    <a href="javascript:void(0)" class="nav-button" data-slide="2"></a>
+                    <a href="javascript:void(0)" class="nav-button" data-slide="3"></a>
+                </div>
+               <h3>In the Space: Escape room</h3>
+               <ul class="tecnologias">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                </ul>
+               <p>Proyecto universitario para la página web de la Facultad de Ingeniería de Sistemas de la Universidad Nacional San Luis Gonzaga. Desarrollada con HTML, CSS y JavaScript, sin utilizar bibliotecas, y completamente adaptable a diferentes dispositivos (responsive).</p>
+               <div class="buttons">
+                  <a href="#" class="buy"><i class="fab fa-github"></i> Codigo Fuente </a>
+               </div>
+             </div>
+             <div class="preview" data-target="p-3">
+                <i class="fas fa-times"></i>
+               <img src="img/banner.png" alt="">
+               <h3>In the Space: Escape room</h3>
+               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non vitae labore, veniam eum beatae sapiente repellat magnam a quis pariatur, nemo quo exercitationem ipsum mollitia sint! Et voluptate asperiores beatae.</p>
+               <div class="buttons">
+                  <a href="#" class="buy">Enlace</a>
+               </div>
+             </div>
+             <div class="preview" data-target="p-4">
+                <i class="fas fa-times"></i>
+               <img src="img/in_the_space.jpg" alt="">
+               <h3>In the Space: Escape room</h3>
+               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non vitae labore, veniam eum beatae sapiente repellat magnam a quis pariatur, nemo quo exercitationem ipsum mollitia sint! Et voluptate asperiores beatae.</p>
+               <div class="buttons">
+                  <a href="#" class="buy">Enlace</a>
+               </div>
+             </div>
+             <div class="preview" data-target="p-5">
+                <i class="fas fa-times"></i>
+               <img src="img/in_the_space.jpg" alt="">
+               <h3>In the Space: Escape room</h3>
+               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non vitae labore, veniam eum beatae sapiente repellat magnam a quis pariatur, nemo quo exercitationem ipsum mollitia sint! Et voluptate asperiores beatae.</p>
+               <div class="buttons">
+                  <a href="#" class="buy">Enlace</a>
+               </div>
+             </div>
+         </div>
+
+    </section>
+    <div class="contenedor_videojuegos">
+        <section class="Videojuegos" id="Videojuegos">
+            <h2>Videojuegos</h2>
+            <div class="cuerpo_videojuegos">
+                <div class="filtros">
+                    <a href="#" class="categoria_item" category="all">Todos</a>
+                    <a href="#" class="categoria_item" category="desktop">Desktop</a>
+                    <a href="#" class="categoria_item" category="moviles">Moviles</a>
+                </div>
+                <div class="productos">
+                    <div class="product-item" category="desktop">
+                        <img src="img/in_the_space.jpg" alt="">
+                        <h4>In the Space : Escape room</h4>
+                        <p>Te has infiltrado en una nave espacial donde realizan diversos experimentos. Es este escape room de tipo ciencia ficcion tendras que resolver diferentes puzzles y acertijos para investigar en que estan experimentando.¿Seras capaz de descrubirlo y salvar a la humanidad ?</p>
+                        <div class="button-wrapper">
+                            <a href="https://store.steampowered.com/app/1854580/In_The_Space__Escape_Room/" target="_blank"> <i class="fab fa-steam"></i> Enlace</a>
+                        </div> 
+                    </div>
+                    <div class="product-item" category="desktop">
+                        <img src="img/The_kidnapped.jpg" alt="">
+                        <h4>The kidnapped: Escape Room</h4>
+                        <p>Has sido secuestrado y te encuentras atrapado en una casa desconocida. En este escape room de ambientación oscura tendrás que resolver diferentes rompecabezas para salir de allí. ¿Serás capaz de escapar y sobrevivir?</p>
+                        <div class="button-wrapper">
+                            <a href="https://store.steampowered.com/app/2238410/The_kidnapped_Escape_Room/" target="_blank"><i class="fab fa-steam"></i> Enlace</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="moviles">
+                        <img src="img/zombie.jpg" alt="">
+                        <h4>Zombie Shooter Attack </h4>
+                        <p>Sumérgete en este entretenido juego móvil donde debes explotar globos con solo un toque. Apropiado para todas las edades y ideal para disfrutar en cualquier momento y lugar</p>
+                        <div class="button-wrapper">
+                            <a href="https://play.google.com/store/apps/details?id=com.ApcGames.PopBalloon" target="_blank"><i class="fab fa-google-play"></i> Enlace</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="moviles">
+                        <img src="img/final_figther.jpg" alt="">
+                        <h4>Sexy final fighter</h4>
+                        <p>Experimenta la emoción de la lucha callejera en este juego móvil. Enfréntate a diversos enemigos en escenarios 3D, elige entre 5 personajes y disfruta derrotando a tus rivales.</p>
+                        <div class="button-wrapper">
+                            <a href="https://store.steampowered.com/app/2238410/The_kidnapped_Escape_Room/" target="_blank"><i class="fab fa-google-play"></i> Enlace</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="moviles">
+                        <img src="img/galactic_defender.jpg" alt="">
+                        <h4>Galactic Defender</h4>
+                        <p>Experimenta la emoción de la lucha callejera en este juego móvil. Enfréntate a diversos enemigos en escenarios 3D, elige entre 5 personajes y disfruta derrotando a tus rivales.</p>
+                        <div class="button-wrapper">
+                            <a href="https://store.steampowered.com/app/2238410/The_kidnapped_Escape_Room/" target="_blank"><i class="fab fa-google-play"></i> Enlace</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="moviles">
+                        <img src="img/pop_ballon.png" alt="">
+                        <h4>Pop Balloon</h4>
+                        <p>Sumérgete en este entretenido juego móvil donde debes explotar globos con solo un toque. Apropiado para todas las edades y ideal para disfrutar en cualquier momento y lugar</p>
+                        <div class="button-wrapper">
+                            <a href="https://play.google.com/store/apps/details?id=com.ApcGames.PopBalloon" target="_blank"><i class="fab fa-google-play"></i> Enlace</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="moviles">
+                        <img src="img/number.jpg" alt="">
+                        <h4>Number Catcher</h4>
+                        <p>Sumérgete en este entretenido juego móvil donde debes explotar globos con solo un toque. Apropiado para todas las edades y ideal para disfrutar en cualquier momento y lugar</p>
+                        <div class="button-wrapper">
+                            <a href="https://play.google.com/store/apps/details?id=com.ApcGames.PopBalloon" target="_blank"><i class="fab fa-google-play"></i> Enlace</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="moviles">
+                        <img src="img/runner.jpg" alt="">
+                        <h4>Escape Runner</h4>
+                        <p>Sumérgete en este entretenido juego móvil donde debes explotar globos con solo un toque. Apropiado para todas las edades y ideal para disfrutar en cualquier momento y lugar</p>
+                        <div class="button-wrapper">
+                            <a href="https://play.google.com/store/apps/details?id=com.ApcGames.PopBalloon" target="_blank"><i class="fab fa-google-play"></i> Enlace</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!---
+    <section class="contacto" id="contacto">
+        <h2>Contacto</h2>
+        <div class="formulario">
+            <form action="enviar_formulario.php" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+            
+                <div class="form-group">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+            
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                </div>
+            
+                <button type="submit" class="submit-button">Enviar</button>
+            </form>
+            
+            
+        </div>
+    </section>-->
+    <footer>
+        <div class="iconos-footer">
+            <div class="enlaces">
+                <a href="https://github.com/RoniPeve"><i class="fab fa-github"></i></a>
+                <a href="https://www.facebook.com/adrian.pevecarhuayo/"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                <a href="https://youtube.com"><i class="fab fa-youtube"></i></a>
+                
+            </div>
+        </div>
+        <div class="autor">
+            <p ><span>&copy; Roni Adrian Peve Carhuayo - 2024</span></p>
+        </div>
+    </footer>
+   
+    
+    
+</body>
+</html>
